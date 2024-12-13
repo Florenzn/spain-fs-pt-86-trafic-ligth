@@ -10,3 +10,45 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+main{
+    background-image: url(https://img.freepik.com/foto-gratis/ilustracion-lluvia-ciudad-futurista_23-2151406585.jpg);
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    padding-top: 20px; 
+}
+
+.luces {
+    border: 1px solid black;
+    width: 360px;
+    height: 900px;
+    margin: 0px auto;
+    margin-top: 20px;
+    background-color: rgb(31, 30, 30);
+}
+.luces div{
+    border: 1px solid black;
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+}
+.rojo{
+    background-color: red;
+}
+.amarillo{
+    background-color: yellow;
+}
+.verde{
+    background-color: green;
+}
+.encendido{
+    box-shadow: 0px 0px 50px white;
+}
+
+.boton{
+    background-color: orange;
+    margin-bottom: auto;
+}
